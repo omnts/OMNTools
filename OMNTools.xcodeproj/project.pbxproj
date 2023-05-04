@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FE8BE8882A02C34900D1B20C /* OMNTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8BE8872A02C34900D1B20C /* OMNTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEADC00B2A02C4DE00CB8A9B /* OMNTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEADC00A2A02C4DD00CB8A9B /* OMNTools.swift */; };
+		FEF6954E2A03BDAF0060EB8A /* OMNDirectoryScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF6954D2A03BDAF0060EB8A /* OMNDirectoryScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		FE8BE8872A02C34900D1B20C /* OMNTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMNTools.h; sourceTree = "<group>"; };
 		FEADC00A2A02C4DD00CB8A9B /* OMNTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMNTools.swift; sourceTree = "<group>"; };
 		FEADC00C2A02C50400CB8A9B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		FEF6954D2A03BDAF0060EB8A /* OMNDirectoryScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMNDirectoryScanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		FEADC0092A02C4DD00CB8A9B /* OMNTools */ = {
 			isa = PBXGroup;
 			children = (
+				FEF6954D2A03BDAF0060EB8A /* OMNDirectoryScanner.swift */,
 				FE8BE8872A02C34900D1B20C /* OMNTools.h */,
 				FEADC00A2A02C4DD00CB8A9B /* OMNTools.swift */,
 			);
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEADC00B2A02C4DE00CB8A9B /* OMNTools.swift in Sources */,
+				FEF6954E2A03BDAF0060EB8A /* OMNDirectoryScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
